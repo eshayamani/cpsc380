@@ -1,0 +1,32 @@
+CPSC 380
+Assignment 4: CPU Scheduling
+
+Esha Yamani 2337310
+Sophia Guarnotta 2369941
+
+
+Files Created:
+
+schedule_fcfs.c
+schedule_sjf.c
+schedule_rr.c
+schedule_priority.c
+queue.c
+
+
+To run program:
+
+make schedule
+./schedule file.txt
+
+schedule refers to the type of scheduler being used
+and file.txt refers to the txt file given for that scheduler
+
+example:
+make fcfs
+./fcfs schedule.txt
+
+References:
+geeks for geeks for implementation of scheduling algorithms
+previous classes for queue and list
+lucas helped with the use of pointers and basic outline of the schedulers
